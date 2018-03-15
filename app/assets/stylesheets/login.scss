@@ -1,17 +1,10 @@
-body {
-  background-color: red; 
-}
-#login-page  {
+#login-section  {
+  width: 100%;
 
   label {
     width:100px;
     display: inline-block;
     text-align: right;
-  }
-
-  div {
-    margin:auto;
-    width:300px;
   }
 
   .alert.failure.pre {
@@ -41,7 +34,8 @@ body {
   }
 
   form {
-    margin:auto;
+    display: block;
+    margin: 0 auto;
     width:300px;
   }
 }
