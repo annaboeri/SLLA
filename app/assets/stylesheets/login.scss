@@ -8,19 +8,18 @@
   }
 
   .alert.failure.pre {
-    background-color: #D05151;
-    opacity: 0.7;
+    color: #D05151;
     border: 0.1px solid gray;
     padding: 1px;
     border-radius: 5px;
     display:none;
 
     p {
+      height: 20px;
       margin: 1px;
     }
 
   }
-
   .closealert {
     margin-left: 10px;
     &:hover {
